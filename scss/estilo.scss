@@ -1,0 +1,82 @@
+@import "fuentes";
+@import "colores";
+
+.textocualquiera {
+	color: $blue;
+	font-weight: bold;
+	font-size: 100px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 50px 50px 50px 50px;
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+	animation-duration: 3s;
+	animation-name: aparicion;
+}
+
+@keyframes aparicion{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+body{ background-image: url(../img/fondopasteleria.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.tituloimportante {color: blue;
+					font-style: italic;
+					font-size: 500%;
+					text-align: center;
+					font-family: 'Dancing Script', cursive;
+					font-weight: 500;
+}
+h1 {background-image: linear-gradient(cyan, pink);
+	background-size: contain;}
+
+.container-fluid {padding-right: 0px ; padding-left: 0px}
+
+.piedepagina {text-align: left;
+			font-family: $fuentenormal;
+			background-image: linear-gradient(cyan, pink);
+		color: red;
+}
+
+.piedepagina__titulo {font-size: 20px;
+						font-weight:bold;}
+
+$comida:pastel;
+
+.pequebio {
+			@if $comida == pastel {
+		color: $blue;
+			padding: 10px;
+			background-color: white;
+			font-family: $fuentenormal;
+			text-align: right;
+			}
+			@else if $comida == cupcake {
+			color: $red;
+			padding: 10px;
+			background-color: black;
+			}
+			@else if $comida == galletas {
+			color: $cyan;
+			padding: 15px;
+			background-color: red;
+			}
+			@else if $comida == medialunas {
+			color: $pink;
+			padding: 20px;
+			background-color: blue;
+			}
+			@else {
+			color: $black;
+			padding: 10px;
+			background-color: cyan;
+			}
+}
