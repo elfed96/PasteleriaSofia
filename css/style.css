@@ -29,10 +29,10 @@ body {
   font-family: 'Dancing Script', cursive;
   font-weight: 500; }
 
-h1 {
+/*h1 {
   background-image: linear-gradient(cyan, pink);
   background-size: contain; }
-
+*/
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px; }
@@ -40,16 +40,28 @@ h1 {
 .piedepagina {
   text-align: left;
   font-family: tahoma;
-  background-image: linear-gradient(cyan, pink);
-  color: red; }
+  background-color: #f8f9fa;
+  color: blue; 
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+}
 
 .piedepagina__titulo {
   font-size: 20px;
   font-weight: bold; }
+
+.redes{ 
+  list-style: none;
+ }
 
 .pequebio {
   color: blue;
   padding: 10px;
   background-color: white;
   font-family: tahoma;
-  text-align: right; }
+  text-align: right;
+  position: relative;
+   }
