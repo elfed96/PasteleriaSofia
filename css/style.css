@@ -19,15 +19,17 @@
 
 body {
   background-image: url(../img/fondopasteleria.jpg);
-  height: 1200px; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .tituloimportante {
   color: blue;
   font-style: italic;
   font-size: 500%;
-  text-align: center;
+  text-align: right;
   font-family: 'Dancing Script', cursive;
-  font-weight: 500; }
+  font-weight: 500px; }
 
 /*h1 {
   background-image: linear-gradient(cyan, pink);
