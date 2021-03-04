@@ -8,7 +8,9 @@
   text-align: center;
   animation-duration: 3s;
   animation-name: aparicion;
-  background-color: white; }
+  background-color: white;
+  padding: 0px;
+  margin: 0px; }
 
 @keyframes aparicion {
   0% {
