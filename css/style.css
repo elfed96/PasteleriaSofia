@@ -7,7 +7,8 @@
   padding: 50px 50px 50px 50px;
   text-align: center;
   animation-duration: 3s;
-  animation-name: aparicion; }
+  animation-name: aparicion;
+  background-color: white; }
 
 @keyframes aparicion {
   0% {
