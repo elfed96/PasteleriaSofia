@@ -9,7 +9,7 @@
   animation-duration: 3s;
   animation-name: aparicion;
   background-color: white;
-  padding: 0px; }
+  padding: 0px;}
 
 @keyframes aparicion {
   0% {
@@ -19,9 +19,7 @@
 
 body {
   background-image: url(../img/fondopasteleria.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  height: 100%; }
 
 .tituloimportante {
   color: blue;
