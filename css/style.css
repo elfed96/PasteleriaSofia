@@ -62,9 +62,24 @@ body {
 
 .pequebio {
   color: blue;
-  padding: 10px;
   background-color: white;
   font-family: tahoma;
-  text-align: right;
+  text-align: center;
   position: relative;
+  width: 1219px;
+  height: 300px;
+  bottom: 300px;
+  left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
    }
+
+.lapastelera {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  padding-top: 100px;
+  margin: 0px;
+}
